@@ -65,10 +65,11 @@ const Background = () => {
         <video
           className="w-full h-full object-cover"
           autoPlay
-          loop
           muted
+          loop
           playsInline
-          src="video1.mp4"
+          preload="auto"
+          src="/video1.mp4"
         />
       </div>
 
@@ -105,10 +106,11 @@ const Background = () => {
         <video
           className="w-full h-full object-cover"
           autoPlay
-          loop
           muted
+          loop
           playsInline
-          src="video2.mp4"
+          preload="auto"
+          src="/video2.mp4"
         />
       </div>
 
