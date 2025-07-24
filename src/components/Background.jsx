@@ -61,7 +61,7 @@ const Background = () => {
       </div>
 
       {/* 🔳 First Video */}
-      <div className="md:w-[94%] md:h-[50vw] h-50 px-3 mb-20 overflow-hidden md:mx-auto md:rounded-3xl border md:mt-10">
+      {/* <div className="md:w-[94%] md:h-[50vw] h-50 px-3 mb-20 overflow-hidden md:mx-auto md:rounded-3xl border md:mt-10">
         <video
           className="w-full h-full object-cover"
           autoPlay
@@ -71,7 +71,7 @@ const Background = () => {
           preload="auto"
           src="/video1.mp4"
         />
-      </div>
+      </div> */}
 
       {/* 🔳 First Button */}
       <button
@@ -102,7 +102,7 @@ const Background = () => {
       </div>
 
       {/* 🔳 Second Video */}
-      <div className="md:w-[94%] md:h-[50vw] h-50 px-3 mb-20 overflow-hidden md:mx-auto md:rounded-3xl border md:mt-10">
+      {/* <div className="md:w-[94%] md:h-[50vw] h-50 px-3 mb-20 overflow-hidden md:mx-auto md:rounded-3xl border md:mt-10">
         <video
           className="w-full h-full object-cover"
           autoPlay
@@ -112,7 +112,7 @@ const Background = () => {
           preload="auto"
           src="/video2.mp4"
         />
-      </div>
+      </div> */}
 
       {/* 🔳 Second Button */}
       <button
