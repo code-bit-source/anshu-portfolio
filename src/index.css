@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+::selection{
+    color: rgb(160, 132, 6);
+}
+
+@font-face {
+    font-family: "f1";
+    src: url(./assets/fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "f2";
+    src: url(./assets/fonts/file2.ttf);
+}
