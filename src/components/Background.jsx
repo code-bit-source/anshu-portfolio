@@ -17,7 +17,7 @@ const Background = () => {
     <div className="w-screen md:overflow-hidden relative z-10 min-h-screen overflow-x-hidden">
       {/* Background Image */}
       <div className="w-full h-full absolute top-0 bg-black z-[-1]">
-        <img className="opacity-40 shadow-2xl shadow-black" src="./src/assets/image2.jpg" alt="" />
+        <img className="opacity-40 shadow-2xl shadow-black" src="image2.jpg" alt="" />
       </div>
 
       {/* Navbar */}
@@ -51,7 +51,7 @@ const Background = () => {
           loop
           muted
           playsInline
-          src="/src/assets/video1.mp4" // 🔻 Low-quality version
+          src="video1.mp4" // 🔻 Low-quality version
         />
       </div>
 
@@ -86,7 +86,7 @@ const Background = () => {
           loop
           muted
           playsInline
-          src="/src/assets/video2.mp4" // 🔻 Low-quality version
+          src="video2.mp4" // 🔻 Low-quality version
         />
       </div>
 
